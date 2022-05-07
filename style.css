@@ -1,0 +1,163 @@
+/*Tags Container*/
+body {
+    background-color: rgb(17, 16, 16);
+
+}
+
+.container {
+    width: 100vw;
+    height: 80vh;
+    display: block;
+}
+
+.topo {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    background-color: rgb(86, 84, 84);
+
+}
+
+/*Cabeçalho*/
+.placar {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/placar.gif);
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.centro {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(153, 153, 153);
+}
+
+.titulo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo {
+    font-family: cursive;
+    color: rgba(20, 52, 122, 0.822);
+}
+
+
+
+/*Corpo do jogo*/
+
+.linha {
+    height: auto;
+    display: flex;
+}
+
+.quadrado {
+    width: 8.8%;
+    padding-bottom: 8.8%;
+    height: 0;
+    border: black solid 1px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(102, 100, 100);
+    position: relative;
+
+
+}
+
+.quadrado_numerico {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+}
+
+.bomba:focus {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/exp.png);
+    background-size: 100% 100%;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.bomba {
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border: 2px solid rgb(148, 147, 147);
+}
+
+.bomba:hover {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(144, 141, 141);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border: 2px solid rgb(148, 147, 147);
+    border-style: ridge;
+    cursor: pointer;
+}
+
+.normal {
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border: 2px solid rgb(148, 147, 147);
+
+}
+
+.normal:focus {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/normal.jpg);
+    background-size: 100% 100%;
+}
+
+.normal:hover {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(144, 141, 141);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border: 2px solid rgb(148, 147, 147);
+    border-style: ridge;
+    cursor: pointer;
+
+
+}
